@@ -15,7 +15,11 @@ int main (){
 
     int i;
 
-            for (i;i<=100000;i++){
+    /* Realmente no ha sido nada dificil, solo he tenido que cambiar
+    los printf del programa que ya hicimos en la uni por la orden system y sale, pero está gracioso
+    Ah! y no se te curra hacer la gracia de poner "i<= un número grande", se peta muy jarcor */
+
+            for (i;i<=100;i++){
                 if (i%2==0)
                     system ("toilet -F border --gay -f pagga \"Gatos y Tetas\"");
                 else
