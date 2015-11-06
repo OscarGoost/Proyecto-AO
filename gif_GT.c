@@ -6,8 +6,10 @@ int main (){
 
         for (i;i<=100;i++){
                 if (i%2==0){
+		    /* Limpia la consola*/
                     system ("clear");
                     system ("toilet -F border --gay -f pagga \"Gatos y Tetas\"");
+		    /* Espera un tiempo hasta ejecutar el siguiente comando*/
                     system ("sleep 0.5");
                 }
 
