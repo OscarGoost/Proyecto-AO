@@ -7,13 +7,12 @@ int main (){;
 
    ans = system("zenity --question --text \"¿es usted tonto?\"; echo $?");
 
-   if (ans = 1){
-       do{
-	  system("zenity --question --text \"seguro?\"");
-       }while (ans = 1);
-   }
+   if (ans == 1)
+
+       while (ans == 1)
+	  ans = system("zenity --question --text \"seguro?\"");
    else
-       system("zenity --info --text `toilet -F border - pagga \"TONTO\"`");
+       system("zenity --info --text \"`toilet -f pagga \"Tonto\"`\"");
 
 
     return EXIT_SUCCESS;
