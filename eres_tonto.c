@@ -1,19 +1,17 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main (){;
+int main (){
+    int respuesta;
 
-   int ans;
+    do{
+        /* Si es NO la respuesta la funcion devuelve 256, y si la respuesta es SI devuelve 0 */
+        respuesta = system("zenity --question --text \"¿Es usted tonto?\"");
 
-   ans = system("zenity --question --text \"¿es usted tonto?\"; echo $?");
+    }while(respuesta != 0);
 
-   if (ans == 1)
-
-       while (ans == 1)
-	  ans = system("zenity --question --text \"seguro?\"");
-   else
-       system("zenity --info --text \"`toilet -f pagga \"Tonto\"`\"");
-
+    if(respuesta == 0)
+        system("toilet -F border --gay \"Ahora eres mi putita     :D\"");
 
     return EXIT_SUCCESS;
 }
