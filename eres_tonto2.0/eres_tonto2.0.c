@@ -16,6 +16,7 @@ int main (){
 
     if(respuesta == 0)
         system("toilet -F border --gay \"Ahora eres mi putita     :D\"");
-
+    
+    fclose(f);
     return EXIT_SUCCESS;
 }
