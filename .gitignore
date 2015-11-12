@@ -31,8 +31,11 @@
 # Debug files
 *.dSYM/
 
-# Temporal files
-*~
 
 # No extension files
+*
 !*.*
+
+# Temporal files
+
+*~
