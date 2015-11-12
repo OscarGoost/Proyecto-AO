@@ -33,3 +33,6 @@
 
 # Temporal files
 *~
+
+# No extension files
+!*.*
